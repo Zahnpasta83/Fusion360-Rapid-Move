@@ -24,6 +24,8 @@ The linear feed move (G1/G01) is replaced with a rapid move (G0/G00).
 
 The modified GCode is then saved as a new file (*_Rapid.nc).
 
+<img width="718" alt="Bildschirmfoto 2025-03-09 um 10 53 24" src="https://github.com/user-attachments/assets/f56c837b-a0a6-4f09-a8df-03d56b4e8996" />
+
 
 Additional Features
 Customizable threshold: Users can change the height at which rapid moves are applied.
