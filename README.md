@@ -1,6 +1,6 @@
 This application is a GCode Rapid Move Converter designed to optimize CNC machining processes by automatically replacing linear feed moves (G1/G01) with rapid moves (G0/G00) when the tool height exceeds a specified threshold.
 
-How It Works:
+## How It Works:
 
 User Interface (GUI)
 The app provides an easy-to-use Tkinter-based GUI.
@@ -28,21 +28,51 @@ The modified GCode is then saved as a new file (*_Rapid.nc).
 
 
 
-Additional Features
+## Additional Features
 Customizable threshold: Users can change the height at which rapid moves are applied.
 Error handling: The app prevents invalid inputs and displays error messages if necessary.
 
-Use Case
+## Use Case
 This application is useful for CNC programmers and machinists who want to optimize their toolpath movements. 
 By replacing unnecessary feed moves with rapid moves above a certain height, machining time is reduced, and CNC machine efficiency is improved.
 
-⚠️ Use at Your Own Risk!
+## ⚠️ Use at Your Own Risk!
 
 This software is provided without any guarantees or liability. Use it at your own risk.
 
-📌 Why this warning?
+## 📌 Why this warning?
 
 Incorrect G-code modifications could lead to unexpected behavior of your CNC machine.
 A wrong threshold value or misinterpretation of movements may cause crashes or damage.
 Always review the generated code before running it on your machine.
 The developer assumes no responsibility for any damage, malfunction, or loss resulting from the use of this software.
+
+## How to Run the App on a Mac
+To run the GCode Rapid Move Converter on a Mac, follow these steps:
+
+## 1. Install Python
+The app is written in Python, so you need to have Python installed.
+
+Check if Python is already installed by running:
+```
+python3 --version
+```
+If Python is not installed, download and install it from:
+https://www.python.org/downloads/mac-osx/
+
+Make sure pip (Python's package manager) is installed as well:
+```
+python3 -m ensurepip --default-pip
+```
+
+## 2. Install Required Dependencies
+The app requires tkinter (for the GUI) and re (for text processing). tkinter is usually pre-installed with Python, but if it's missing, install it with:
+```
+brew install python-tk
+```
+Then, install any additional dependencies from requirements.txt (if provided):
+```
+pip3 install -r requirements.txt
+```
+## 3. Run the APP
+Navigate to the folder where the script is located and execute the APP
