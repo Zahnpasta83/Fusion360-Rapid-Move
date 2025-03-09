@@ -31,9 +31,10 @@ The modified GCode is then saved as a new file (*_Rapid.nc).
 Additional Features
 Customizable threshold: Users can change the height at which rapid moves are applied.
 Error handling: The app prevents invalid inputs and displays error messages if necessary.
-Custom icon support: Users can replace the default app icon with their own .ico file.
+
 Use Case
-This application is useful for CNC programmers and machinists who want to optimize their toolpath movements. By replacing unnecessary feed moves with rapid moves above a certain height, machining time is reduced, and CNC machine efficiency is improved.
+This application is useful for CNC programmers and machinists who want to optimize their toolpath movements. 
+By replacing unnecessary feed moves with rapid moves above a certain height, machining time is reduced, and CNC machine efficiency is improved.
 
 ⚠️ Use at Your Own Risk!
 
