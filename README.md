@@ -46,33 +46,3 @@ Incorrect G-code modifications could lead to unexpected behavior of your CNC mac
 A wrong threshold value or misinterpretation of movements may cause crashes or damage.
 Always review the generated code before running it on your machine.
 The developer assumes no responsibility for any damage, malfunction, or loss resulting from the use of this software.
-
-## How to Run the App on a Mac
-To run the GCode Rapid Move Converter on a Mac, follow these steps:
-
-## 1. Install Python
-The app is written in Python, so you need to have Python installed.
-
-Check if Python is already installed by running:
-```
-python3 --version
-```
-If Python is not installed, download and install it from:
-https://www.python.org/downloads/mac-osx/
-
-Make sure pip (Python's package manager) is installed as well:
-```
-python3 -m ensurepip --default-pip
-```
-
-## 2. Install Required Dependencies
-The app requires tkinter (for the GUI) and re (for text processing). tkinter is usually pre-installed with Python, but if it's missing, install it with:
-```
-brew install python-tk
-```
-Then, install any additional dependencies from requirements.txt (if provided):
-```
-pip3 install -r requirements.txt
-```
-## 3. Run the APP
-Navigate to the folder where the script is located and execute the APP
